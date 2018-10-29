@@ -95,7 +95,7 @@ private:
 
 	Block* m_currentBlock = nullptr;
 	size_t m_latestStatementInBlock = 0;
-	std::map<std::string, size_t> m_references;
+	std::map<YulString, size_t> m_references;
 };
 
 }
